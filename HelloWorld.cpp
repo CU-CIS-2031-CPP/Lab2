@@ -17,6 +17,6 @@ int main()
    return 0;
 }
 
-void printMessageToConsole(string message){
-   cout << message;
+void printMessageToConsole(string messageToPrint){
+   cout << messageToPrint;
 }
