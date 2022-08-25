@@ -1,6 +1,8 @@
 #include <iostream>
 
-using namespace std;
+//These lines impout cout and string from the std namespace to make our code easier to read.
+using std::cout;
+using std::string;
 
 string makeGreetingFromName(string name){
    return "Hello, " + name + ".";
