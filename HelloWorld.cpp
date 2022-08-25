@@ -14,6 +14,7 @@ int main()
 {
    string message = makeGreetingFromName("World");
    printMessageToConsole(message);
+   return 0;
 }
 
 void printMessageToConsole(string message){
